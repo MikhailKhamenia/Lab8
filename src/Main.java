@@ -39,19 +39,19 @@ public class Main {
   }
 
   @SuppressWarnings("java:S5413")
-  /*public static void reverseAllStringsInList(List<String> list) {
+  public static void reverseAllStringsInList(List<String> list) {
     for (int i = 0; i < list.size(); i++) {
       String strToReverse = list.get(i);
       list.remove(i);
       list.add(i, reverseString(strToReverse));
     }
-  }*/
+  }
 
-//  private static String reverseString(String str) {
-//    StringBuilder stringBuilder = new StringBuilder(str);
-//    stringBuilder.reverse();
-//    return stringBuilder.toString();
-//  }
+  private static String reverseString(String str) {
+    StringBuilder stringBuilder = new StringBuilder(str);
+    stringBuilder.reverse();
+    return stringBuilder.toString();
+  }
 
   public static Map<Character, Integer> getStatisticsOfCharsInList(List<String> list) {
     Map<Character, Integer> statisticsMap = new HashMap<>();
